@@ -1,0 +1,26 @@
+<div class="products">
+  <div *ngFor="let product of products">
+    <div class="card">
+      <img src="./../../../assets/images/item.png" alt="item" width="240px" />
+      <h3>{{ product.name }}</h3>
+      <h4>Description</h4>
+      <p>{{ product.description }}</p>
+      Current price: {{ product.price }} <br />
+
+      <span class="original">
+        <del> Original price: {{ product.originalPrice }} <br /></del
+      ></span>
+      Discount:
+      {{ (product.price / product.originalPrice) * 100 }} % <br />
+
+      <span
+        >Quantity :
+
+        {{ product.quantity }}</span
+      >
+
+      <br />
+      <button>Buy</button>
+    </div>
+  </div>
+</div>

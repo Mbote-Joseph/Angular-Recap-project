@@ -1,0 +1,36 @@
+nav {
+  height: 50px;
+  left: 0px !important;
+  top: 0px !important;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ee6e73;
+  color: #f7f7f7;
+  padding: 10px;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  text-decoration: none !important;
+  margin-left: 30px;
+}
+
+li::marker {
+  color: #ee6e73;
+}
+div {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #f7f7f7;
+}

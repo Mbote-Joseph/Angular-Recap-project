@@ -1,0 +1,27 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.card {
+  background-color: #f8f8f8;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 5px 5px 5px 5px #ee6e73;
+  min-width: 250px;
+  max-width: 40%;
+  text-align: center;
+}
+button {
+  background-color: #ee6e73;
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  border: #ee6e73;
+  color: #f8f8f8;
+  margin-top: 15px;
+}
+.original {
+  color: #e7b2b4;
+}
